@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Button with Responsive Ad</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    gap: 20px;
+    padding: 10px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80vw;
+    max-width: 400px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* Ad container can take full width responsively */
+  ins.adsbygoogle {
+    display: block;
+    max-width: 400px;
+    width: 80vw;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<button>Click Me</button>
+
+<!-- Responsive AdSense/AdMob Banner -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6083368910449512"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6083368910449512"
+     data-ad-slot="5610574776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</body>
+</html>
